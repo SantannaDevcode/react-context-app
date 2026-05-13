@@ -1,0 +1,16 @@
+.home {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.home h1 {
+  margin-bottom: 25px;
+  color: #1f2937;
+}
+
+.lista-produtos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
